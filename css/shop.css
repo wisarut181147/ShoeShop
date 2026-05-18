@@ -1,0 +1,142 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+    height: 100%;
+  }
+  
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    background-color: #333;
+    color: #fff;
+    padding: 0 20px;
+  }
+  
+  header h1 {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  header nav {
+    display: flex;
+  }
+  
+  header nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+  }
+  
+  header nav ul li {
+    margin: 0 10px;
+  }
+  
+  header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+  }
+  
+  .shoe-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .shoe-card img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .shoe-card h3 {
+    margin: 10px 0;
+    font-size: 18px;
+    text-align: center;
+  }
+  
+  .shoe-card p {
+    margin: 10px 0;
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .shoe-card button {
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  footer p {
+    margin: 0;
+    font-size: 14px;
+  }  
+
+.shoe-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .shoe-card img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .shoe-card h3 {
+    margin: 10px 0;
+    font-size: 18px;
+    text-align: center;
+  }
+  
+  .shoe-card p {
+    margin: 10px 0;
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .shoe-card button {
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+  }
